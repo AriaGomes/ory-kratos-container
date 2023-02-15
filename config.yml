@@ -89,6 +89,7 @@ identity:
   default_schema_id: default
   schemas:
     - id: default
+      # Dont change this unless you know what you are doing. Instead edit the identity.schema.json file in the same dir
       url: file:///home/ory/config/identity.schema.json
 
 courier:
